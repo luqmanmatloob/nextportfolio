@@ -59,14 +59,14 @@ function Portfolio() {
 
       <div>
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio9.jpeg"
+          imgSrc="/Portfolio/portfolio9.jpeg"
           title='Figma to Tailwind, React, NextJs responsive Landing page'
           description='Converted a random figma design into responsive landing page using Tailwind, React and Nextjs '
           techStack={['Tailwindcss', 'React', 'NextJS']}
           demoLink='https://3-nextjs.vercel.app/'
         />
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio8.jpeg"
+          imgSrc="/Portfolio/portfolio8.jpeg"
           title='Food website using React NextJS'
           description='Made a responsive food website using Tailwind, React and Nextjs, Added pages using new Nextjs app router '
           techStack={['Tailwindcss', 'React', 'NextJS']}
@@ -74,7 +74,7 @@ function Portfolio() {
         />
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio7.jpg"
+          imgSrc="/Portfolio/portfolio7.jpg"
           title='Fitnesshub website using TailwindCSS'
           description='Made a website using TailwindCSS, added beautiful cards and tabs using JavaScript'
           techStack={['HTML', 'CSS', 'Tailwindcss', 'JavaScript']}
@@ -82,7 +82,7 @@ function Portfolio() {
         />
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio5.jpeg"
+          imgSrc="/portfolio/portfolio5.jpeg"
           title='CONVERTED THIS FIGMA DESIGN INTO CODE WITH PIXEL PERFECT ACCURACY.'
           description='I converted a Figma design into code with best practices, did SEO optimization, W3 validation, sitemap.xml, robot.txt  added Twitter card, graph card'
           techStack={['HTML', 'CSS', 'Bootstrap', 'JavaScript']}
@@ -90,7 +90,7 @@ function Portfolio() {
         />
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio6.jpeg"
+          imgSrc="/portfolio/portfolio6.jpeg"
           title='Portfolio website using tialwindcss.'
           description='Again made a portfolio website for myself but this time using tailwindcss, Added light and dark theme, using local storage to save users theme preference '
           techStack={['HTML', 'CSS', 'Tailwindcss', 'JavaScript']}
@@ -100,7 +100,7 @@ function Portfolio() {
 
 
         {/* <PortfolioItem
-          imgSrc='/Portfolio/Portfolio4.jpg'
+          imgSrc='/portfolio/portfolio4.jpg'
           title='Portfolio website using Bootstrap.'
           description='Made same portfolio design using Bootstrap, tried to customize bootstrap to understand how to overwrite bootstrap while customizing it.'
           techStack={['HTML', 'CSS', 'Bootstrap']}
@@ -108,7 +108,7 @@ function Portfolio() {
         /> */}
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio3.jpg"
+          imgSrc="/portfolio/portfolio3.jpg"
           title=' Portfolio website using vanila HTML, CSS, JS.'
           description='Made a responsive and crossbrowser compatable portfolio website with and added some cool themes using Java Script and CSS variables,'
           techStack={['HTML', 'CSS', 'JavaScript']}
@@ -116,7 +116,7 @@ function Portfolio() {
         />
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio2.jpg"
+          imgSrc="/portfolio/portfolio2.jpg"
           title='HTML CSS clone of Hero section.'
           description='Made a responsive clone of hero section of a random webiste form internet, and hosted it on netlify'
           techStack={['HTML', 'CSS']}
@@ -124,7 +124,7 @@ function Portfolio() {
         />
 
         <PortfolioItem
-          imgSrc="/Portfolio/Portfolio1.jpg"
+          imgSrc="/portfolio/portfolio1.jpg"
           title='Made a portfolio website using Html CSS.'
           description='Made a responsive portfolio website using Html CSS. Deployed it on github and learned the concepts of Git and Github'
           techStack={['HTML', 'CSS']}
