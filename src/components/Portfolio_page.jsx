@@ -5,7 +5,7 @@ import PrimaryBtn from './primarybtn'
 
 
 const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
-  <section className='my-20'>
+  <section className='my-20 px-7 rounded-md'>
     <div className=' flex flex-col items-center gap-10 md:flex-row  my-10 border-[#e2e2e2] p-5 drop-shadow-xl shadow-xl border-2'>
 
       <div className='about__img w-[] flex-1'>
@@ -48,9 +48,10 @@ const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
 
 function Portfolio() {
   return (
-    <div className='max-w-[1050px] mx-auto py-20'>
+    <div className='max-w-[1050px] mx-auto py-20 rounded-md'>
 
-      <div className='container mt-20  '>
+      <div className='container mt-20 px-12 '>
+
         <div>
           <h2 className='font-semibold text-2xl'>My Projects.</h2>
         </div>
