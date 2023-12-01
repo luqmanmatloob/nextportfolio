@@ -3,7 +3,7 @@ import Image from 'next/image'
 const Skills = () => {
     return (
 
-        <div className='w-[100vw] bg-white py-16'>
+        <div className='' >
             <div className='mt-10 mb-10 container flex flex-col items-center mx-auto '>
 
 
