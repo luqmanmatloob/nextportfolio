@@ -124,13 +124,24 @@ const hero = () => {
 
                 <div className=' md:max-w-[50%] mx-auto md:pr-0'>
                     <img
-                        src='/luqmanleft.png'
+                        src='/img/Hotpot-removebg.png'
                         alt=''
                         width=''
                         height=''
                         className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0 bg-[#3b82f6] md:bg-transparent'
 
                     />
+
+
+                    {/* <img
+                        src='/img/Hotpot-removebg.png'
+                        alt=''
+                        width=''
+                        height=''
+                        className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0 bg-[#3b82f6] md:bg-transparent'
+
+                    />  */}
+
 
                 </div>
 

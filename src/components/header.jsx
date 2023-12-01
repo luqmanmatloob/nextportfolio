@@ -117,7 +117,7 @@ const Header = () => {
       <div className='z-30 fixed top-5 left-0 right-0 flex justify-between items-center p-3 mx-auto max-w-[1200px] w-[90%] bg-white rounded-xl cursor-pointer drop-shadow-md shadow-md'>
         <Link href="/">
           <div className='font-semibold text-2xl border-[#3b82f6]'>
-            <span className='border-2 border-[#000000] md:border-0 md:border-b-4 md:border-[#3b82f6] p-1 md:p-2 '>Ｌ𝓾ⓠ𝓶卂Ⓝ</span>
+            <span className='border-2 border-[#000000] md:border-0 font-extrabold md:border-b-4 md:border-[#3b82f6] p-1 md:p-2 '><span className='text-[#3b82f6] md:text-black text-3xl'>Ｌ</span>𝓾ⓠ𝓶卂Ⓝ</span>
             <span className='border-t-4 border-[#3b82f6] p-1 hidden md:inline '>𝓜ａⓉℓ𝕆𝕠๒</span>
           </div>
         </Link>
