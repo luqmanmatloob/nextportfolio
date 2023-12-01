@@ -59,14 +59,14 @@ function Portfolio() {
 
       <div>
         <PortfolioItem
-          imgSrc="/portfolio/portfolio9.jpeg"
+          imgSrc="/Portfolio/portfolio9.jpeg"
           title='Figma to Tailwind, React, NextJs responsive Landing page'
           description='Converted a random figma design into responsive landing page using Tailwind, React and Nextjs '
           techStack={['Tailwindcss', 'React', 'NextJS']}
           demoLink='https://3-nextjs.vercel.app/'
         />
         <PortfolioItem
-          imgSrc="/portfolio/portfolio8.jpeg"
+          imgSrc="/Portfolio/Portfolio8.jpeg"
           title='Food website using React NextJS'
           description='Made a responsive food website using Tailwind, React and Nextjs, Added pages using new Nextjs app router '
           techStack={['Tailwindcss', 'React', 'NextJS']}
