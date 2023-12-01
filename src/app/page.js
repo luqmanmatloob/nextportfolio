@@ -6,11 +6,12 @@ import About from 'src/components/About'
 import { Metadata } from "next";
 
 
+
 export const generateMetadata = () => {
   return {
-    title: "Amet SedCursus EU Tellus Eget.",
-    description: "Vitae augue elementum ullamcorper porta adipiscing dui, consequat enim quam. Nisi rhoncus vitae orci duis diam eget faucibus. Nulla enim sit nibh sed.",
-  };
+    title: 'Luqman Matloob | Front-End Developer',
+    description: 'I am Luqman, a Front-end Developer and a student pursuing, degree in Information Technology, I wield a diverse skill set, including expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Next.js, Git, GitHub, Figma, XD, and Photoshop',
+   };
 };
 
 export default function Home() {
