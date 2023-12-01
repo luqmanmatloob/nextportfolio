@@ -32,7 +32,7 @@ const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
         </ul>
        
         <div className='max-w-[140px]'>
-          <Link href={demoLink}>
+          <Link href={demoLink} target='_blank'>
             <PrimaryBtn text="Live Demo" />
             </Link>
         </div>
