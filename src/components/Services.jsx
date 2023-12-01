@@ -107,42 +107,42 @@ const Services = () => {
 
 <div className='flex flex-wrap gap-8 my-5 justify-center '>
       <Image
-        src='/Ellipse 63.png'
+        src='/img/html.png'
         alt=''
         width='70'
         height='70'
         className=''
       />
       <Image
-        src='/Ellipse 64.png'
+        src='/img/css.png'
         alt=''
         width='70'
         height='70'
         className=''
       />
       <Image
-        src='/Ellipse 65.png'
+        src='/img/java_script.png'
         alt=''
         width='70'
         height='70'
         className=''
       />
       <Image
-        src='/Ellipse 66.png'
+        src='/img/bootstrap.png'
         alt=''
         width='70'
         height='70'
         className=''
       />
       <Image
-        src='/Ellipse 67.png'
+        src='/img/react.png'
         alt=''
         width='70'
         height='70'
         className=''
       />
       <Image
-        src='/Ellipse 68.png'
+        src='/img/git.png'
         alt=''
         width='70'
         height='70'

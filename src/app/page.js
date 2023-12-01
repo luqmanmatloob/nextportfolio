@@ -2,6 +2,8 @@ import Image from 'next/image'
 import Hero from 'src/components/hero/hero'
 import Services from 'src/components/Services'
 import Work from 'src/components/Work'
+import Contact from 'src/components/Contact'
+import Skills from 'src/components/Skills'
 
 import { Metadata } from "next";
 
@@ -18,10 +20,11 @@ export default function Home() {
     <main className="">
 
       <Hero />
-      <div className='bg-[#AEE2FF] h-8'></div>
 
-      <Services/>
-      <Work/>
+      {/* <Services/> */}
+      {/* <Work/> */}
+      <Skills/>
+      <Contact/>
 
     </main>
   )
