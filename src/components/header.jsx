@@ -29,11 +29,11 @@ const Header = () => {
       {/* mobile menu */}
       <div className='mx-auto max-w-[1200px]'>
         <div className={isHidden ? 'hidden' : ''}>
-          <div className=' h[100vh] fixed top-0 right-0 left-0 bottom-0 z-10 bg-white'>
+          <div className=' h[100vh] fixed top-0 right-0 left-0 bottom-0 z-40 bg-white'>
             <div className='flex align-middle justify-between p-5 px-6'>
               <div className=''>
 
-                <PrimaryBtn text="Start a new project" />
+                <PrimaryBtn text="Connect with me" />
 
               </div>
 
@@ -47,32 +47,28 @@ const Header = () => {
                 Home
               </Link>
               <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                Work
+                About
               </Link>
               <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                About Us
+                Portfolio
               </Link>
               <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                Contact Us
+                Contact
               </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                Service
+              <Link href='/' className='py-3' >
+                Blog <span className='text-red-600'>(Coming soon...)</span>
               </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                Blog
-              </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
-                Term & Conditions
+              <Link href='/' className='py-3' >
+                Store <span className='text-red-600'>(Coming soon...)</span>
               </Link>
             </div>
 
-            <p className='px-7 py-3'>Follow us on</p>
+            <p className='px-7 py-3'>Follow me on Socials</p>
 
             <div className='flex justify-between w-[250px] px-7'>
               <Image src='/social60.png' alt='social icon' width='35' height='35' />
               <Image src='/social61.png' alt='social icon' width='35' height='35' />
               <Image src='/social62.png' alt='social icon' width='35' height='35' />
-              <Image src='/social63.png' alt='social icon' width='35' height='35' />
               <Image src='/social64.png' alt='social icon' width='35' height='35' />
             </div>
           </div>
@@ -135,7 +131,7 @@ const Header = () => {
             </div>
 
             <div onClick={toggleHiddenClass} className='md:hidden'>
-              <div className=''>
+              <div className='border-black border-2 rounded-sm p-[1px]'>
                 <Image
                   src='/open.svg'
                   alt='menu close image'

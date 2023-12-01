@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-const Skills = () => {
+const About = () => {
     return (
 
         <div className='' >
@@ -65,6 +65,13 @@ const Skills = () => {
                         className=''
                     />
                     <Image
+                        src='/img/tailwind.png'
+                        alt=''
+                        width='70'
+                        height='70'
+                        className='rounded-lg'
+                    />
+                    <Image
                         src='/img/react.png'
                         alt=''
                         width='70'
@@ -72,12 +79,13 @@ const Skills = () => {
                         className=''
                     />
                     <Image
-                        src='/img/git.png'
+                        src='/img/nextjs2.png'
                         alt=''
                         width='70'
                         height='70'
                         className=''
                     />
+
 
 
 
@@ -89,6 +97,13 @@ const Skills = () => {
 
                 <div className='flex flex-wrap gap-8 my-5 justify-center'>
                     <Image
+                        src='/img/git.png'
+                        alt=''
+                        width='70'
+                        height='70'
+                        className=''
+                    />
+                    <Image
                         src='/img/github.png'
                         alt=''
                         width='70'
@@ -96,28 +111,22 @@ const Skills = () => {
                         className=''
                     />
                     <Image
-                        src='/Ellipse 70.png'
+                        src='/img/figma.png'
                         alt=''
                         width='70'
                         height='70'
                         className=''
                     />
                     <Image
-                        src='/Ellipse 71.png'
+                        src='/img/xd.png'
                         alt=''
                         width='70'
                         height='70'
                         className=''
                     />
+
                     <Image
-                        src='/Ellipse 72.png'
-                        alt=''
-                        width='70'
-                        height='70'
-                        className=''
-                    />
-                    <Image
-                        src='/Ellipse 69.png'
+                        src='/img/canva.png'
                         alt=''
                         width='70'
                         height='70'
@@ -135,4 +144,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default About

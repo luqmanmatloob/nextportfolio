@@ -1,7 +1,7 @@
 import Hero from 'src/components/hero'
 import Portfolio from 'src/components/Portfolio'
 import Contact from 'src/components/Contact'
-import Skills from 'src/components/Skills'
+import About from 'src/components/About'
 
 import { Metadata } from "next";
 
@@ -18,7 +18,7 @@ export default function Home() {
     <main className="">
 
       <Hero />
-      <Skills />
+      <About />
       <Portfolio />
       <Contact />
 

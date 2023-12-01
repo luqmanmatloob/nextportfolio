@@ -26,13 +26,14 @@ const Footer = () => {
             </div>
 
 
-            <div className='text-[#bcbcbc] text-sm flex flex-wrap justify-center align-middle py-10'>
+            <div className='text-[#bcbcbc] text-sm flex flex-wrap justify-between mx-auto max-w-[650px] align-middle py-10'>
                 <p className='px-5'>
-                    Copyright 2021
+                    Copyright reserved 2023
                 </p>
 
                 <p className='px-5'>
-                    Terms & Conditions
+                    Coded by Luqman Matloob, Design inspired by <a href="https://www.figma.com/file/wkP1sAJYnxUbdLEndpLogX/Bizpro"target="_blank" className='hover:border-b-white border-b-2 border-transparent' >bizpro</a>
+
 
                 </p>
             </div>

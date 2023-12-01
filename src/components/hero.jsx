@@ -9,7 +9,7 @@ const hero = () => {
     return (
         <div className='max-w-[1200px] mx-auto md:w-[90%] mt-20 '>
 
-            {/* <div className=' '>
+              <div className=' '>
                 <Image
                     src='/circle.png'
                     alt=''
@@ -71,7 +71,7 @@ const hero = () => {
                     className='absolute z-50 right-[10%] bottom-[15%] w-3'
 
                 />
-            </div> */}
+            </div>
 
             <div className='p-10 flex justify-between flex-wrap-reverse'>
 
@@ -128,7 +128,7 @@ const hero = () => {
                         alt=''
                         width=''
                         height=''
-                        className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0'
+                        className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0 bg-[#3b82f6] md:bg-transparent'
 
                     />
 
