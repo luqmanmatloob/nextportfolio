@@ -22,7 +22,7 @@ const Header = () => {
 
 
   return (
-    <div className='max-w-[1200px] mx-auto mt-10  '>
+    <div className='max-w-[1200px] mx-auto pt-10  ' id='home_section'>
 
 
 
@@ -43,16 +43,16 @@ const Header = () => {
             </div>
 
             <div className=' flex flex-col px-7 my-3 text-xl font-medium'>
-              <Link href='/' className='py-3 ' onClick={toggleHiddenClass}>
+              <Link href='/#home_section' className='py-3 ' onClick={toggleHiddenClass}>
                 Home
               </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
+              <Link href='/#about_section' className='py-3' onClick={toggleHiddenClass}>
                 About
               </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
+              <Link href='/#portfolio_section' className='py-3' onClick={toggleHiddenClass}>
                 Portfolio
               </Link>
-              <Link href='/' className='py-3' onClick={toggleHiddenClass}>
+              <Link href='/#contact_section' className='py-3' onClick={toggleHiddenClass}>
                 Contact
               </Link>
               <Link href='/' className='py-3' >
@@ -125,9 +125,9 @@ const Header = () => {
         <div className='flex gap-4 items-center'>
           <div className=''>
             <div className='gap-5 hidden md:flex items-center'>
-              <Link href="/">Home </Link>
-              <Link href="#">Portfolio</Link>
-              <Link href="#"><PrimaryBtn text="Contact" /></Link>
+              <Link href='/#home_section'>Home </Link>
+              <Link href="/#portfolio_section">Portfolio</Link>
+              <Link href="/#contact_section"><PrimaryBtn text="Contact" /></Link>
             </div>
 
             <div onClick={toggleHiddenClass} className='md:hidden'>

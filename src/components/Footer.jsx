@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className='bg-[#0A142F] py-14'>
             <div className='flex justify-center text-white py-10 '>
-                <Link href="/">
+                <Link href="/#home_section">
 
                     <div className='font-semibold text-2xl border-[#3b82f6]'>
                         <span className='border-2   border-[#8e8e8e] md:border-0 md:border-b-4 md:border-[#3b82f6] p-1 md:p-2 '>Ｌ𝓾ⓠ𝓶卂Ⓝ</span>

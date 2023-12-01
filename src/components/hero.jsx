@@ -100,20 +100,18 @@ const hero = () => {
                     <p className='text-2xl md:text-5xl font-semibold mt-6 text-center md:text-start leading-6'>I am Luqman Matloob.</p>
 
                     <p className='py-5 text-center md:text-start'>
-                        Hi, I am Luqman, a Front-end Developer and a student pursuing a degree in Information Technology,
-                        I am into web-devlopment for about two years,
-                        I work to make a better web a better place, that is fast, easy to use, beautiful,
-                        accessible to all :).
-                    </p>
+                    Hi, I am Luqman, a Front-end Developer and a student pursuing, degree in Information Technology. 
+                    I have been into web development for about two years.
+                    I work to make the web a better place that is fast, easy to use, beautiful, and accessible to all :).                    </p>
 
 
                     <div className='flex gap-3 justify-center items-center md:justify-start mb-10'>
 
-
-                        <Link href="#"><PrimaryBtn text="Connect with me" /> </Link>
+                    {/* id is for about scroll */}
+                        <Link href="/#contact_section" id='about_section'><PrimaryBtn text="Connect with me" /> </Link> 
 
                         <div className='text-[#6854FC] align-bottom mt-[8px] hidden md:block'>
-                            <Link href="#">Browse my work </Link>
+                            <Link href="/#portfolio_section">Browse my work </Link>
 
                         </div>
                     </div>

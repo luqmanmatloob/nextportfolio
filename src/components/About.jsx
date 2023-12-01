@@ -11,20 +11,26 @@ const About = () => {
 
 
 
-                <p className='text-center bold font-extrabold text-3xl md:text-4xl mt-5'>
+                <p className='text-center bold font-extrabold text-3xl md:text-4xl mt-5 mb-5    '>
                     About Me .
                 </p>
 
 
                 <p className='max-w-[80%] text-start mx-auto mt-3 my-5'>
-                    Hi there, I am Luqman, I am a Front-End Developer, I create Elegant,
-                    Modern, user-friendly websites. If you are looking for a Front-End Developer
-                    who believes in perseverance and can deliver high-quality products, then, look
-                    no further. I am confident that my skills and experience can be of valuable assistance.
-                    Furthermoe I have 4 months of experience automating Excel spreadsheets and Google
-                    Sheets with VBA and Apps Script. I am currently a student of BS Information Technology.
-                    I am eager to learn new technologies and apply my skills to real-world projects.
-
+                    Hey there! I am Luqman Matloob, I am a Front-End Developer, currently pursuing a BS in Information Technology.
+                    With a passion for crafting exceptional user experiences, I have been immersed in the world of web development for the past two years.
+                    <br />
+                    <br />
+                    As a Front-end Developer, I wield a diverse skill set, including expertise in HTML, CSS, JavaScript,
+                    Bootstrap, Tailwind, React, Next.js, Git, GitHub, Figma, XD, and Photoshop. Beyond the web,
+                    I have a strong grip on C++. Additionally, I have the knack for automating tasks, from streamlining Excel processes
+                     to enhancing Google Sheets functionality, using VBA and Google Apps Script.
+                    <br />
+                    <br />
+                    My journey in technology is fueled by a commitment to creating not just functional, but aesthetically
+                    pleasing and accessible web solutions. Lets code something incredible together
+                    <br />
+                    
                 </p>
 
 
@@ -95,7 +101,7 @@ const About = () => {
 
 
 
-                <div className='flex flex-wrap gap-8 my-5 justify-center'>
+                <div className='flex flex-wrap gap-8 my-5 justify-center' id="portfolio_section">
                     <Image
                         src='/img/git.png'
                         alt=''

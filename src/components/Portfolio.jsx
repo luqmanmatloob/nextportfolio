@@ -6,7 +6,8 @@ import Link from 'next/link'
 
 const Portfolio = () => {
     return (
-        <div className='mb-14'>
+        <section  className=''>
+        <div className='mb-14' >
 
 
             {/* 
@@ -30,7 +31,6 @@ const Portfolio = () => {
                     Portfolio
                 </p>
                 <p className='max-w-[80%] text-center mx-auto mt-10 my-10'>
-                    Interdum ac tincidunt molestie facilisis. Nulla at erat odio bibendum diam quam. Scelerisque mus vel egestas justo, purus consequat nibh eget. Non risus feugiat porta integer.
                 </p>
 
 
@@ -98,12 +98,15 @@ const Portfolio = () => {
                 </div>
 
 
-                <div className='mb-10 mt-16'>
-                    <PrimaryBtn text='View More' />
+                <div className='mb-10 mt-16' id='contact_section'>
+                    <Link href="/portfolio">
+                        <PrimaryBtn text='View More' />
+                    </Link>
                 </div>
 
             </div>
         </div>
+        </section>
     )
 }
 
