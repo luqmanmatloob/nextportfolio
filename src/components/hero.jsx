@@ -2,12 +2,12 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import PrimaryBtn from '../primarybtn'
+import PrimaryBtn from './primarybtn'
 
 
 const hero = () => {
     return (
-        <div className='max-w-[1200px] mx-auto md:w-[90%] bg-[#ecf9ff] '>
+        <div className='max-w-[1200px] mx-auto md:w-[90%] mt-20 '>
 
             {/* <div className=' '>
                 <Image

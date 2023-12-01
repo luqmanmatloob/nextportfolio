@@ -1,7 +1,5 @@
-import Image from 'next/image'
-import Hero from 'src/components/hero/hero'
-import Services from 'src/components/Services'
-import Work from 'src/components/Work'
+import Hero from 'src/components/hero'
+import Portfolio from 'src/components/Portfolio'
 import Contact from 'src/components/Contact'
 import Skills from 'src/components/Skills'
 
@@ -20,11 +18,9 @@ export default function Home() {
     <main className="">
 
       <Hero />
-
-      {/* <Services/> */}
-      {/* <Work/> */}
-      <Skills/>
-      <Contact/>
+      <Skills />
+      <Portfolio />
+      <Contact />
 
     </main>
   )

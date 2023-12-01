@@ -5,5 +5,7 @@
 
 html {
     background-color: #ecf9ff;
+    scroll-behavior: smooth;
+
   }
   
