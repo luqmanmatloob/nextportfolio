@@ -44,7 +44,7 @@ const Portfolio = () => {
                             className='w-[%] h-[%]'
                         />
                         <div className='my-5'>
-                            <Link href="#"><PrimaryBtn text="Live Demo" /></Link>
+                            <Link href="https://fitnesshub.luqmanmatloob.vercel.app/ "target='_blank'><PrimaryBtn text="Live Demo" /></Link>
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@ const Portfolio = () => {
                             className='w-[%] h-[%]'
                         />
                         <div className='my-5'>
-                            <Link href="#"><PrimaryBtn text="Live Demo" /></Link>
+                            <Link href="https://food.luqmanmatloob.vercel.app/ " target='_blank'><PrimaryBtn text="Live Demo" /></Link>
                         </div>
                     </div>
 
@@ -72,7 +72,7 @@ const Portfolio = () => {
                             className='w-[%] h-[%]'
                         />
                         <div className='my-5'>
-                            <Link href="#"><PrimaryBtn text="Live Demo" /></Link>
+                            <Link href="https://3-nextjs.vercel.app/" target='_blank' ><PrimaryBtn text="Live Demo" /></Link>
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@ const Portfolio = () => {
                             className='w-[%] h-[%]'
                         />
                         <div className='my-5'>
-                            <Link href="#"><PrimaryBtn text="Live Demo" /></Link>
+                            <Link href="https://luqmanmatloob.github.io/"  target='_blank'><PrimaryBtn text="Live Demo" /></Link>
                         </div>
                     </div>
 

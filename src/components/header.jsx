@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 import PrimaryBtn from './primarybtn'
 import Link from 'next/link'
 import Image from 'next/image'
+import Socialicons from './Socialicons';
 
 
 const Header = () => {
@@ -32,9 +33,9 @@ const Header = () => {
           <div className=' h[100vh] fixed top-0 right-0 left-0 bottom-0 z-40 bg-white'>
             <div className='flex align-middle justify-between p-5 px-6'>
               <div className=''>
-
-                <PrimaryBtn text="Connect with me" />
-
+                <Link onClick={toggleHiddenClass}href='/#contact_section'>
+                  <PrimaryBtn text="Connect with me" />
+                </Link>
               </div>
 
               <div className='' onClick={toggleHiddenClass}>
@@ -63,13 +64,10 @@ const Header = () => {
               </Link>
             </div>
 
-            <p className='px-7 py-3'>Follow me on Socials</p>
+            <p className='flex justify-center mt-16'>Follow me on Socials</p>
 
-            <div className='flex justify-between w-[250px] px-7'>
-              <Image src='/social60.png' alt='social icon' width='35' height='35' />
-              <Image src='/social61.png' alt='social icon' width='35' height='35' />
-              <Image src='/social62.png' alt='social icon' width='35' height='35' />
-              <Image src='/social64.png' alt='social icon' width='35' height='35' />
+            <div className='flex justify-center mt-8'>
+              <Socialicons/>
             </div>
           </div>
         </div>
