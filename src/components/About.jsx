@@ -167,12 +167,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className='my-10 border-[#e2e2e2] p-5 drop-shadow-xl shadow-xl border-2 max-w-[700px] mx-auto  '>
-        <p className='flex items-center justify-center'><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luqmanmatloob&" alt="luqmanmatloob" /></p>
-        <div className='text-[#6854FC] flex justify-center first-letter:text-md  mt-5  '>
-          <Link href="https://github.com/luqmanmatloob/" target='_blank'>
-            <PrimaryBtn text='My github -->' />
-          </Link>
+      <div className='  border-[#e2e2e2]   max-w-[700px]  mx-auto '>
+        <div className='drop-shadow-xl shadow-xl border-2 p-5 m-5'>
+          <p className='flex items-center justify-center'><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=luqmanmatloob&" alt="luqmanmatloob" /></p>
+          <div className='text-[#6854FC] flex justify-center first-letter:text-md  mt-5  '>
+            <Link href="https://github.com/luqmanmatloob/" target='_blank'>
+              <PrimaryBtn text='My github -->' />
+            </Link>
+          </div>
         </div>
       </div>
 
