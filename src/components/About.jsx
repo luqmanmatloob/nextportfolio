@@ -33,16 +33,16 @@ const About = () => {
           My Skills
         </p>
 
-        <div className='flex flex-wrap gap-8 my-5 justify-center items-center max-w-3xl'>
+        <div className='flex flex-wrap gap-8 my-5 justify-center items-center mx-3 max-w-3xl'>
           <div className=''>
             <Image
               src='/img/html.png'
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>HTML</p>
+            <p className='text-center text-sm mt-1'>HTML</p>
           </div>
 
           <div className=''>
@@ -51,9 +51,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>CSS</p>
+            <p className='text-center text-sm mt-1'>CSS</p>
           </div>
           <div>
             <Image
@@ -61,9 +61,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>JavaScript</p>
+            <p className='text-center text-sm mt-1'>JavaScript</p>
           </div>
 
           <div>
@@ -72,9 +72,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Bootstrap</p>
+            <p className='text-center text-sm mt-1'>Bootstrap</p>
           </div>
 
           <div className=''>
@@ -83,9 +83,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='rounded-lg w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto border-black border'
+              className='rounded-lg w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto border-black border'
             />
-            <p className='text-center text-lg mt-1'>TailwindCSS</p>
+            <p className='text-center text-sm mt-1'>Tailwind</p>
           </div>
 
           <div>
@@ -94,9 +94,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>React JS</p>
+            <p className='text-center text-sm mt-1'>React JS</p>
           </div>
 
           <div>
@@ -105,9 +105,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Next JS</p>
+            <p className='text-center text-sm mt-1'>Next JS</p>
           </div>
 
           <div>
@@ -116,9 +116,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Git</p>
+            <p className='text-center text-sm mt-1'>Git</p>
           </div>
           <div>
             <Image
@@ -126,9 +126,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Github</p>
+            <p className='text-center text-sm mt-1'>Github</p>
           </div>
 
           <div>
@@ -137,9 +137,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Figma</p>
+            <p className='text-center text-sm mt-1'>Figma</p>
           </div>
 
           <div>
@@ -148,9 +148,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>XD</p>
+            <p className='text-center text-sm mt-1'>XD</p>
           </div>
           <div>
             <Image
@@ -158,9 +158,9 @@ const About = () => {
               alt=''
               width='70'
               height='70'
-              className='w-[50px] h-[50px] md:w-[70px] md:h-[70px] mx-auto'
+              className='w-[40px] h-[40px] md:w-[70px] md:h-[70px] mx-auto'
             />
-            <p className='text-center text-lg mt-1'>Canva</p>
+            <p className='text-center text-sm mt-1'>Canva</p>
           </div>
         </div>
       </div>
