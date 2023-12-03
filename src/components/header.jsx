@@ -123,8 +123,8 @@ const Header = () => {
         <div className='flex gap-4 items-center'>
           <div className=''>
             <div className='gap-5 hidden md:flex items-center'>
-              <Link href='/#home_section'>Home </Link>
-              <Link href="/#portfolio_section">Portfolio</Link>
+              <Link href='/#home_section'className='hover:scale-110 hover:transition-transform duration-300'>Home </Link>
+              <Link href="/#portfolio_section" className='hover:scale-110 hover:transition-transform duration-300'>Portfolio</Link>
               <Link href="/#contact_section"><PrimaryBtn text="Contact" /></Link>
             </div>
 
