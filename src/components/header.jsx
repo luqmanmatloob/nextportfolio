@@ -57,14 +57,14 @@ const Header = () => {
                 Contact
               </Link>
               <Link href='/' className='py-3' >
-                Blog <span className='text-red-600'>(Coming soon...)</span>
+                Blog <span className='text-red-600 text-sm'>(Coming soon...)</span>
               </Link>
               <Link href='/' className='py-3' >
                 Store <span className='text-red-600'>(Coming soon...)</span>
               </Link>
             </div>
 
-            <p className='flex justify-center mt-16'>Follow me on Socials</p>
+            <p className='flex justify-center mt-16 text-sm '>Follow me on Socials</p>
 
             <div className='flex justify-center mt-8'>
               <Socialicons/>
