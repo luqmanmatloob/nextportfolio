@@ -60,7 +60,7 @@ const Header = () => {
                 Blog <span className='text-red-600 text-sm'>(Coming soon...)</span>
               </Link>
               <Link href='/' className='py-3' >
-                Store <span className='text-red-600'>(Coming soon...)</span>
+                Store <span className='text-red-600 text-sm'>(Coming soon...)</span>
               </Link>
             </div>
 
