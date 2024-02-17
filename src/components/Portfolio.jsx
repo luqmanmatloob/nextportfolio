@@ -35,6 +35,21 @@ const Portfolio = () => {
 
 
                 <div className='flex flex-wrap gap-10 justify-center px-5'>
+                    
+                   
+                    <div className='rounded-md border-2 border-[#cacaca] p-5 drop-shadow-xl shadow-xl '>
+                        <Image
+                            src="/Portfolio/portfolio11.png"
+                            width='400'
+                            height='250'
+                            alt=""
+                            className='w-[%] h-[%]'
+                        />
+                        <div className='my-5'>
+                            <Link href="https://todoapp-luqman.vercel.app/"target='_blank'><PrimaryBtn text="Live Demo" /></Link>
+                        </div>
+                    </div>
+
                     <div className='rounded-md border-2 border-[#cacaca] p-5 drop-shadow-xl shadow-xl '>
                         <Image
                             src="/Portfolio/portfolio7.jpg"
@@ -77,18 +92,6 @@ const Portfolio = () => {
                     </div>
 
 
-                    <div className='rounded-md border-2 border-[#cacaca] p-5 drop-shadow-xl shadow-xl '>
-                        <Image
-                            src="/Portfolio/portfolio3.jpg"
-                            width='400'
-                            height='250'
-                            alt=""
-                            className='w-[%] h-[%]'
-                        />
-                        <div className='my-5'>
-                            <Link href="https://luqmanmatloob.github.io/"  target='_blank'><PrimaryBtn text="Live Demo" /></Link>
-                        </div>
-                    </div>
 
 
 

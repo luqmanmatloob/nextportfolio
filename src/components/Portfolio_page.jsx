@@ -60,6 +60,14 @@ function Portfolio() {
 
       <div>
         <PortfolioItem
+          imgSrc="/Portfolio/portfolio11.png"
+          title='Full-Stack Todo list app  '
+          description='I developed a Full-Stack Todo list application leveraging Next.js, React, Tailwind CSS, and MongoDB. Implemented seamless CI/CD integration through Git and GitHub, deployed the app on Vercel. and integrated the app with MongoDB Atlas'
+          techStack={['NextJS', 'React', 'Tailwindcss', 'MongoDB']}
+          demoLink='https://todoapp-luqman.vercel.app/'
+        />
+
+        <PortfolioItem
           imgSrc="/Portfolio/portfolio9.jpeg"
           title='Figma to Tailwind, React, NextJs responsive Landing page'
           description='Converted a random figma design into responsive landing page using Tailwind, React and Nextjs '
@@ -118,8 +126,8 @@ function Portfolio() {
 
         <PortfolioItem
           imgSrc="/Portfolio/portfolio2.jpg"
-          title='HTML CSS clone of Hero section.'
-          description='Made a responsive clone of hero section of a random webiste form internet, and hosted it on netlify'
+          title='HTML CSS clone of a Hero section.'
+          description='Made a responsive clone of a hero section of a random webiste form internet, and hosted it on netlify'
           techStack={['HTML', 'CSS']}
           demoLink='https://luqmanmatloob.netlify.app/'
         />
