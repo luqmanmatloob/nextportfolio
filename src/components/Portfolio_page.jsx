@@ -68,10 +68,18 @@ function Portfolio() {
         />
 
         <PortfolioItem
+          imgSrc="/Portfolio/portfolio12.png"
+          title='Responsive, Elegant, Modern looking site'
+          description='Created a responsive, elegant, modern looking site using typescript, nextjs, react and tailwind css'
+          techStack={['NextJS','React', 'TypeScript','Tailwindcss',]}
+          demoLink='https://travelsite-luqman.vercel.app/'
+        />
+
+        <PortfolioItem
           imgSrc="/Portfolio/portfolio9.jpeg"
           title='Figma to Tailwind, React, NextJs responsive Landing page'
           description='Converted a random figma design into responsive landing page using Tailwind, React and Nextjs '
-          techStack={['Tailwindcss', 'React', 'NextJS']}
+          techStack={['NextJS','React', 'JavaScript','Tailwindcss']}
           demoLink='https://3-nextjs.vercel.app/'
         />
         <PortfolioItem
