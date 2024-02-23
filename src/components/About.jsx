@@ -1,7 +1,13 @@
+'use client'
+
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import PrimaryBtn from './primarybtn'
+import AboutText from './abouttext'
+
+
+
 import { SiHtml5 } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -65,31 +71,18 @@ const About = () => {
 
 
   return (
+    
     <div className=''>
       <div className='mt-10 mb-10 container flex flex-col items-center mx-auto '>
         <p className='text-center bold font-extrabold text-3xl md:text-4xl mt-5 mb-5    '>
           About Me .
         </p>
 
-        <p className='max-w-[80%] text-start mx-auto mt-3 my-5'>
-          Hey there! I am Luqman Matloob, I am a Front-End Developer, currently
-          pursuing a BS in Information Technology. With a passion for crafting
-          exceptional user experiences, I have been immersed in the world of web
-          development for the past two years.
-          <br />
-          <br />
-          As a Front-end Developer, I wield a diverse skill set, including
-          expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind, React,
-          Next.js, Git, GitHub, Figma, XD, and Photoshop. Beyond the web, I have
-          a strong grip on C++. Additionally, I have the knack for automating
-          tasks, from streamlining Excel processes to enhancing Google Sheets
-          functionality, using VBA and Google Apps Script.
-          <br />
-          <br />
-          My journey in technology is fueled by a commitment to creating not
-          just functional, but aesthetically pleasing and accessible web
-          solutions. Lets code something incredible together
-          <br />
+        <p className='max-w-[80%] text-start mx-auto mt-3 my-5 text-sm md:text-lg'>
+          
+        <AboutText />
+
+
         </p>
 
         <p className='text-center bold font-extrabold text-2xl mt-5 '>
