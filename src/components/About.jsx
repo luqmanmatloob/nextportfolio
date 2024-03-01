@@ -2,6 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import PrimaryBtn from './primarybtn'
+
+import AboutText from './AboutText'
+
 const About = () => {
   return (
     <div className=''>
@@ -10,7 +13,7 @@ const About = () => {
           About Me .
         </p>
 
-        <p className='max-w-[80%] text-start mx-auto mt-3 my-5'>
+        {/* <p className='max-w-[80%] text-start mx-auto mt-3 my-5'>
           Hey there! I am Luqman Matloob, I am a Front-End Developer, currently
           pursuing a BS in Information Technology. With a passion for crafting
           exceptional user experiences, I have been immersed in the world of web
@@ -29,7 +32,15 @@ const About = () => {
           just functional, but aesthetically pleasing and accessible web
           solutions. Lets code something incredible together
           <br />
-        </p>
+        </p> */}
+
+<div className='max-w-[80%] text-start mx-auto mt-3 my-5 text-sm md:text-lg'>
+
+<AboutText />
+
+
+</div>
+
 
         <p className='text-center bold font-extrabold text-2xl mt-5 '>
           My Skills
