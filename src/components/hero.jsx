@@ -121,16 +121,6 @@ const hero = () => {
 
 
                 <div className=' md:max-w-[50%] mx-auto md:pr-0'>
-                    <img
-                        src='/img/Hotpot-removebg.png'
-                        alt=''
-                        width=''
-                        height=''
-                        className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0 bg-[#3b82f6] md:bg-transparent'
-
-                    />
-
-
                     {/* <img
                         src='/img/Hotpot-removebg.png'
                         alt=''
@@ -138,7 +128,18 @@ const hero = () => {
                         height=''
                         className=' w-[60%] md:w-[85%] mx-auto mt-5 rounded-full md:pr-0 bg-[#3b82f6] md:bg-transparent'
 
-                    />  */}
+                    /> */}
+
+                    <img
+                        src='/img/download35.png'
+                        alt=''
+                        width=''
+                        height=''
+                        className=' w-[60%] md:w-[75%] mx-auto mt-5 rounded-2xl md:pr-0 bg-[#3b82f6] md:bg-transparent'
+
+                    />
+
+
 
 
                 </div>
