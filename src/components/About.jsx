@@ -3,7 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import PrimaryBtn from './primarybtn'
-import AboutText from './abttext'
+import AboutText from './AboutText'
 
 
 import { SiHtml5 } from "react-icons/si";

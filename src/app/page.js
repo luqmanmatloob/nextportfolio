@@ -1,7 +1,7 @@
 import Hero from 'src/components/hero'
 import Portfolio from 'src/components/Portfolio'
 import Contact from 'src/components/Contact'
-import About from 'src/components/abt'
+import About from 'src/components/about'
 
 import { Metadata } from "next";
 
