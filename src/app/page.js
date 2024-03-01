@@ -17,10 +17,9 @@ export const generateMetadata = () => {
 export default function Home() {
   return (
     <main className=" ">
-
+{/* comit failure test */}
       <Hero />
       <About />
-      
       <Portfolio />
       <Contact />
 
