@@ -31,12 +31,11 @@ const AboutText = () => {
 `
 
     const sixth = `Ready to embark on a journey of digital transformation? Let's connect, collaborate, and code something incredible together. Welcome to the future of web development – let's make it unforgettable.
-
 `
 
     return (
         <div className='mt-[100px] mb-[100px]'>
-            <p className='max-w-[80%] text-start mx-auto mt-3 my-5 text-sm md:text-lg'>
+            <div className='max-w-[80%] text-start mx-auto mt-3 my-5 text-sm md:text-lg'>
                 {showFullText ? (
                     <>
 
@@ -61,7 +60,7 @@ const AboutText = () => {
                         <button onClick={toggleTextVisibility} className="text-blue-500 font-bold hover:underline">Read more</button>
                     </>
                 )}
-            </p>
+            </div>
         </div>
     );
 };
