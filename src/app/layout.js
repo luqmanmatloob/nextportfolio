@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata = {
   title: 'Luqman Matloob | Front-End Developer',
   description: 'I am Luqman, a Front-end Developer and a student pursuing, degree in Information Technology, I wield a diverse skill set, including expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Next.js, Git, GitHub, Figma, XD, and Photoshop',
-  
+
 }
 
 export default function RootLayout({ children }) {

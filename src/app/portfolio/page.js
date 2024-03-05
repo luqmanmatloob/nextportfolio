@@ -4,7 +4,7 @@ import Portfolio_page from "@/components/Portfolio_page";
 const Portfolio = () => {
   return (
     <>
-        <Portfolio_page />
+      <Portfolio_page />
     </>
   )
 }
