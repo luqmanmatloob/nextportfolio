@@ -5,8 +5,6 @@ import About from 'src/components/About'
 
 import { Metadata } from "next";
 
-
-
 export const generateMetadata = () => {
   return {
     title: 'Luqman Matloob | Front-End Developer',
