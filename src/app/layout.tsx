@@ -1,8 +1,8 @@
 
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Header from 'src/components/header'
-import Footer from 'src/components/Footer'
+import Header from '../components/header'
+import Footer from '../components/Footer'
 import NextTopLoader from 'nextjs-toploader';
 
 
@@ -10,12 +10,17 @@ import NextTopLoader from 'nextjs-toploader';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Luqman Matloob | Front-End Developer',
-  description: 'I am Luqman, a Front-end Developer and a student pursuing, degree in Information Technology, I wield a diverse skill set, including expertise in HTML, CSS, JavaScript, Bootstrap, Tailwind, React, Next.js, Git, GitHub, Figma, XD, and Photoshop',
+  title: 'Luqman Matloob | Software Developer',
+  description: `
+  I'm Luqman Matloob, a dedicated software developer with a passion for crafting immersive digital experiences. With a blend of creativity and technical expertise, I transform ideas into stunning, user-friendly interfaces that captivate and delight.  `,
 
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
