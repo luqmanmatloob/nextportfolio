@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import PrimaryBtn from './primarybtn'
 import AboutText from './AboutText'
-
+import Image from 'next/image'
 import { SiHtml5 } from 'react-icons/si'
 import { FaCss3Alt } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
@@ -20,6 +20,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaFigma } from 'react-icons/fa'
 import { SiAdobexd } from 'react-icons/si'
 import { SiCanva } from 'react-icons/si'
+import next from 'next'
 
 const About = () => {
   const iconArray = [
@@ -127,7 +128,7 @@ const About = () => {
         <div className='drop-shadow-xl shadow-xl border-2 p-5 m-5'>
           <p className='flex items-center justify-center'>
             <img
-              align='center'
+              // align='center'
               src='https://github-readme-streak-stats.herokuapp.com/?user=luqmanmatloob&'
               alt='luqmanmatloob'
             />

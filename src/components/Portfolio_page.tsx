@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import PrimaryBtn from './primarybtn'
 
-const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
+const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }: any) => (
   <section className='my-20 px-7 rounded-md'>
     <div className=' flex flex-col items-center gap-10 md:flex-row  my-10 border-[#e2e2e2] p-5 drop-shadow-xl shadow-xl border-2'>
       <div className='about__img w-[] flex-1'>
@@ -21,7 +21,7 @@ const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
         <div className='border-2 border-[#4287f5] max-w-[150px] my-5'></div>
         <p className=''>{description}</p>
         <ul className='grid grid-cols-2 py-5 space-y-1 '>
-          {techStack.map((tech, index) => (
+          {techStack.map((tech: string, index: number) => (
             <li className='text-xs ' key={index}>
               {tech}
             </li>
@@ -38,7 +38,7 @@ const PortfolioItem = ({ imgSrc, title, description, techStack, demoLink }) => (
   </section>
 )
 
-function Portfolio () {
+function Portfolio() {
   return (
     <div className='max-w-[1050px] mx-auto py-20 rounded-md'>
       <div className='container mt-20 px-12 '>
