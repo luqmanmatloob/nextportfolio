@@ -50,9 +50,9 @@ function Portfolio() {
       <div>
         <PortfolioItem
           imgSrc='/Portfolio/portfolio13.png'
-          title='Full-Stack Todo list app  '
+          title='Bootstrap Custom Website'
           description='
-          Academic research writing services website using Bootstrap          '
+          Dsigned and developed a website for Academic research and writing services company using Bootstrap          '
           techStack={['HTML', 'CSS', 'JavaScript', 'Bootstrap']}
           demoLink='https://bootstrap-site-tan.vercel.app/'
         />
