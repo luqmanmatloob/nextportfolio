@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'next/link'
 import PrimaryBtn from './primarybtn'
 import AboutText from './AboutText'
-import Image from 'next/image'
 import { SiHtml5 } from 'react-icons/si'
 import { FaCss3Alt } from 'react-icons/fa'
 import { IoLogoJavascript } from 'react-icons/io5'
@@ -20,7 +19,7 @@ import { FaGithub } from 'react-icons/fa'
 import { FaFigma } from 'react-icons/fa'
 import { SiAdobexd } from 'react-icons/si'
 import { SiCanva } from 'react-icons/si'
-import next from 'next'
+import * as motion from "framer-motion/client"
 
 const About = () => {
   const iconArray = [
@@ -112,14 +111,21 @@ const About = () => {
           My Skills
         </p>
 
-          <div className='flex flex-wrap gap-8 my-5 justify-center items-center mx-3 max-w-3xl'>
+        <div className='flex flex-wrap gap-8 my-5 justify-center items-center mx-3 max-w-3xl'>
           {iconArray.map((item, index) => (
-            <div key={index} className='text-center'>
+             <motion.div
+            whileTap={{ scale: 0.95 }}
+            whileHover={{
+              scale: 1.1,
+              backgroundColor: "",
+            }}
+            transition={{ type: "spring", stiffness: 200 }}
+               key={index} className='text-center'>
               <div className='flex justify-center items-center'>
                 {item.icon}
               </div>
               <p className='text-center text-sm mt-1'>{item.label}</p>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -1,10 +1,11 @@
-'use client'
-
+"use client"
 import React, { useState } from 'react'
 import PrimaryBtn from './primarybtn'
 import Link from 'next/link'
 import Image from 'next/image'
 import Socialicons from './Socialicons'
+import * as motion from "framer-motion/client"
+
 
 const Header = () => {
   const [isHidden, setIsHidden] = useState(true)
@@ -103,17 +104,26 @@ const Header = () => {
           <div className=''>
             <div className='gap-5 hidden md:flex items-center'>
               <Link
+              
                 href='/#home_section'
                 className='hover:scale-110 hover:transition-transform duration-300'
               >
                 Home{' '}
               </Link>
+              <motion.div
+               whileTap={{ scale: 0.95 }}
+               whileHover={{ scale: 1.04 }}
+               transition={{ type: "spring", stiffness: 150 }} 
+              >
+
               <Link
                 href='/#portfolio_section'
                 className='hover:scale-110 hover:transition-transform duration-300'
               >
                 Portfolio
-              </Link>
+              </Link>     
+                       </motion.div>
+
               <Link href='/#contact_section'>
                 <PrimaryBtn text='Contact' />
               </Link>

@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+import * as motion from "framer-motion/client"
+
 
 import PrimaryBtn from './primarybtn'
 
@@ -99,20 +101,36 @@ const hero = () => {
             fast, easy to use, beautiful, and accessible to all :).{' '}
           </p>
 
-          <div className='flex gap-3 justify-center items-center md:justify-start mb-10'>
+          <div
+            className='flex gap-3 justify-center items-center md:justify-start mb-10'>
             {/* id is for about scroll */}
-            <Link href='/#contact_section' id='about_section'>
-              <PrimaryBtn text='Connect with me' />{' '}
-            </Link>
-
-            <div className='text-[#6854FC] align-bottom mt-[8px] hidden md:block'>
+            <motion.div
+              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.04 }}
+              transition={{ type: "spring", stiffness: 150 }} 
+              >
+                <Link href='/#contact_section' id='about_section'>
+                  <PrimaryBtn text='Connect with me' />{' '}
+                </Link>
+              
+            </motion.div>
+            <motion.div
+              whileTap={{ scale: 0.95 }}
+              whileHover={{ scale: 1.04 }}
+              transition={{ type: "spring", stiffness: 150 }} 
+              className='text-[#6854FC] hover:underline align-bottom mt-[8px] hidden md:block'>
               <Link href='/#portfolio_section'>Browse my work </Link>
-            </div>
+            </motion.div>
           </div>
         </div>
 
         <div className=' md:max-w-[50%] mx-auto md:pr-0'>
-          <img
+          <motion.img
+            whileHover={{
+              y: -10, // Move up by 10px when hovered
+              transition: { type: "spring", stiffness: 300 }, // Add a springy animation
+            }}
+
             src='/img/download35.png'
             alt=''
             width=''
